@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+} 
+
+#aside-complet {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    border: 20px solid lightgray; 
+}
+
+#aside-complet > h2 {
+    text-align: center;
+}
+
+#photo-profile {
+    padding-top: 10px;
+    width: 50%;
+}
+
+#infos-perso {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /*1fr 9fr*/
+    grid-template-columns: 50% 60%; /*1 fr 1fr*/
+}
+
+#logos-reseaux > a > img {
+    background-color: #171616;
+    border: 10px solid #171616;
+    border-radius: 5%;
+    width: 20%; 
+}
+
+#logos-reseaux {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#formulaire {
+    display: grid;
+    grid-template-rows: 20% 20% 40% 20%;
+    text-align: center;
+    align-items: center;
+}
+
+textarea{
+    height: 100%;
+    width: 100%;
+}
+
+#bouton-message {
+    background-color: #171616;
+    color: white;
+    border: 10px solid #171616;
+    border-radius: 5%;  
+}
+
+#page-principale {
+    padding: 10px;
+}
+
+#propos-moi > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#competences > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#grille-competence {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+}
+
+#experience-profesionelles {
+    padding-bottom: 10px;
+}
+
+#experience-profesionelles > h2 {
+    padding-top: 10px;
+}
+
+#experience-profesionelles > h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#experience-profesionelles > p {
+    text-align: center;
+}
+
+#formations > h2 {
+    padding-top: 10px;
+}
+
+#formations > h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#formations > p {
+    text-align: center;
+}
+  
+#trait{
+    border: 1px solid lightgray;
+    width: 100%;
+    justify-self: center;
+}
+
+.progressbar-wrapper {
+    background-color: #dfe6e9;
+    border-radius: 5%;
+    color: white;
+    width: 100%;
+}
+  
+.progressbar {
+    background-color: #171616;
+    border-radius: 5%;
+    color: white;
+    padding: 10px;
+    justify-self: left;
+}
+
+.cpp {
+    width: 70%;
+}
+
+.lua {
+    width: 80%;
+}
+
+.sql {
+    width: 80%;
+}
+  
+.python {
+    width: 80%;
+}
+  
+.html {
+    width: 60%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2500px)
+{
+    #aside-complet {
+        float: left;
+        width: 20%;
+        padding: 20px;
+        margin-right: 2px;
+    }
+
+    #aside-complet > h2 {
+        text-align: center;
+    }
+
+    #infos-perso {
+        column-gap: 0;
+    }
+
+    #page-principale > hr {
+        width: 50%;
+        margin: auto;
+    }
+
+    
+}
